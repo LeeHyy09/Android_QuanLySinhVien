@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage">
+
+    <ImageButton
+        android:id="@+id/homepage_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arrow_to_the_left_silhouette"
+        android:scaleType="fitCenter"
+        android:textAlignment="center"
+        android:contentDescription="Go back"
+        android:background="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical"
+            android:layout_marginTop="150dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="50dp"
+            android:background="@color/blue">
+
+            <Button
+                android:id="@+id/homepage_qllh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bogoc"
+                android:drawableLeft="@drawable/team_management"
+                android:text="QUẢN LÝ LỚP HỌC"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/homepage_qlsv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bogoc"
+                android:drawableLeft="@drawable/project_manager"
+                android:text="QUẢN LÝ SINH VIÊN"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/homepage_ttcn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bogoc"
+                android:drawableLeft="@drawable/folder"
+                android:text="THÔNG TIN CÁ NHÂN"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/homepage_dx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bogoc"
+                android:drawableLeft="@drawable/logout"
+                android:text="ĐĂNG XUẤT"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+</RelativeLayout>
